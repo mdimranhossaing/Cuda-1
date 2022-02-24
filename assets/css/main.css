@@ -92,3 +92,17 @@ body {
     border-color:#eb7d4b ;
 }
 /*Header area css code end*/
+#main-contents .service-area{
+    background-color:#17C1A6;
+    padding: 60px 0;
+    text-align: center;
+    
+}
+
+
+.service-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
