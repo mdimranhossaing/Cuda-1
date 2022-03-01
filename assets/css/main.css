@@ -206,43 +206,96 @@ body {
 #team-area .team-contents {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-#team-area .team-contents .team-item {
+#team-area .team-contents .team-member{
     text-align: center;
 }
 
-#team-area .team-contents .team-item .team-member {
+#team-area .team-contents .team-member .profile-image {
     display: inline-block;
-    max-width: 70%;
-    height: 110px;
+    width: 170px;
+    height: 170px;
     margin-bottom: 40px;
     border-radius: 50%;
+    transition: all .3s ease;
+    filter: grayscale(100%);
+    cursor: pointer;
 
-}
-
-#team-area .team-contents .team-item h3 {
-    display: block;
-    text-transform: uppercase;
-    font-size: 24px;
-    color: #27283D;
-    margin-bottom: 20px;
-}
-
-#team-area .team-contents .team-item .team-desc {
-    color: #8892a3;
-    font-size: 16px;
-    width: 70%;
-    margin: auto;
-}
-
-#team-area .team-contents .team-item nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    margin: auto;
 } 
+
+#team-area .team-contents .team-member .profile-image:hover {
+    filter: grayscale(0%);
+
+
+} 
+
+
+
+
+.member-name {
+    display: block;
+    font-size: 24px;
+    color: #27283d;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+
+
+.member-position {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #30bae7;
+    font-weight: 700;
+
+}
+.member-desc {
+    width: 80%;
+    margin: auto;
+    color: #3c4761;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+.social-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+.social-links .social-media-link {
+    display: inline-block;
+    text-decoration: none;
+
+    
+}
+.social-links .social-media-link svg {
+    display: inline;
+    background-color: aqua;
+    color: white;
+    font-size: 14px;
+    height: 16px;
+    width: 16px;
+    padding: 6px;
+    border-radius: 50%;
+    transition: all .3s ease;
+
+}
+
+.social-links .social-media-link svg:hover {
+    transform: rotate('360deg');
+}
+
 /*team area css code end*/
 
 
