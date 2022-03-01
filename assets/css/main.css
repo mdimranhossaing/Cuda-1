@@ -273,29 +273,27 @@ body {
     margin: auto;
 
 }
-.social-links .social-media-link {
-    display: inline-block;
-    text-decoration: none;
 
-    
+.social-media-link {
+    text-decoration: none;
 }
-.social-links .social-media-link svg {
-    display: inline;
-    background-color: aqua;
+.social-media-link {
+    background-color: #bdd1df;
     color: white;
     font-size: 14px;
-    height: 16px;
     width: 16px;
+    height: 16px;
     padding: 6px;
     border-radius: 50%;
     transition: all .3s ease;
 
 }
+.social-media-link:hover {
+    background-color: #eb7d4b;
+    transform:rotate('360deg');
+    
 
-.social-links .social-media-link svg:hover {
-    transform: rotate('360deg');
 }
-
 /*team area css code end*/
 
 
